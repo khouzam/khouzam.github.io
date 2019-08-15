@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <!--<li><a href="/about">About</a></li>-->
+                <li><a href="https://khouz.am/resume">Resumé</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            {{ content }}
+        </div>
+        <!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:gilles@khouzam.com">email me</a></li>
+                <li><a href="https://khouz.am/github">github</a></li>
+                <li><a href="https://khouz.am/linkedin">linkedin</a></li>
+                <li><a href="https://khouz.am/twitter">twitter</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
