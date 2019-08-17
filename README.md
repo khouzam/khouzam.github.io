@@ -1,2 +1,0 @@
-# khouzam.com
-Under construction
